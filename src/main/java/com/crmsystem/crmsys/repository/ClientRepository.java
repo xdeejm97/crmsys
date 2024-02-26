@@ -20,6 +20,6 @@ public interface ClientRepository extends JpaRepository<Client, Long> {
 
     Client findByName(String client);
 
-    void delete(Client client);
-
+    @Override
+    void delete(Client aLong);
 }

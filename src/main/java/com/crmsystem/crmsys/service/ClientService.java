@@ -8,4 +8,7 @@ public interface ClientService {
     void save(Client client);
     Client findByName(String username);
 
+    void deleteById(Client along);
+
+
 }
